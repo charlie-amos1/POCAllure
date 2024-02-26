@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POCAllure", "POCAllure\POCAllure.csproj", "{F02A378B-03B9-4909-89E4-9685F6A931CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F02A378B-03B9-4909-89E4-9685F6A931CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02A378B-03B9-4909-89E4-9685F6A931CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02A378B-03B9-4909-89E4-9685F6A931CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02A378B-03B9-4909-89E4-9685F6A931CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F60C07B1-D02B-444E-8C43-2FC54823EBB8}
+	EndGlobalSection
+EndGlobal
