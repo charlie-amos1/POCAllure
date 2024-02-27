@@ -1,6 +1,6 @@
 ﻿Feature: Calculator
 
-Scenario: Popup appears when user searches
+Scenario: Failed Test Example
 	Given the user navigates to the home page
 	And the user clicks search
 	Then thea pop up should be visible
@@ -9,3 +9,4 @@ Scenario: Popup appears when user searches
 Scenario: Passing Test Example
 	Given the user navigates to the home page
 	Then the test passes
+
