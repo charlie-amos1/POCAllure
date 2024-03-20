@@ -45,15 +45,15 @@ jobs:
         if: always() # Execute even if previous steps fail
         continue-on-error: true # Continue execution even if the step fails
         with:
-          ref: gh-pages # Specify the branch to retrieve Allure history from
-          path: gh-pages # Set the destination path for Allure history
+          ref: ${{ vars.ALLURE_HISTORY_PATH }} # Specify the branch to retrieve Allure history from
+          path: ${{ vars.ALLURE_HISTORY_PATH }} # Set the destination path for Allure history
 
       - name: Allure report action # Step to generate Allure report
         uses: simple-elf/allure-report-action@master
         if: always() # Execute even if previous steps fail
         with:
           allure_results: ${{ vars.ALLURE_RESULTS_PATH }} # Specify the directory containing Allure results
-          allure_history: allure-history # Specify the directory to store Allure history
+          allure_history: ${{ vars.ALLURE_HISTORY_PATH }}# Specify the directory to store Allure history
           keep_reports: 5 # Specify the number of previous reports to keep
 
       - name: Deploy Allure report to GitHub Pages # Step to deploy Allure report to GitHub Pages
